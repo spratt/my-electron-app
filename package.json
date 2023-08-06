@@ -4,7 +4,7 @@
   "description": "Electron tutorial app",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "npm run format && electron .",
     "format": "npx prettier . --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
